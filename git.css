@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    /* background-color: rgb(231, 226, 231); */
+    background-image: url(https://images.unsplash.com/photo-1528818955841-a7f1425131b5?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8c3RhcnJ5JTIwc2t5fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+}
+
+table, tr, th, caption {
+    border: 1px solid rgb(24, 53, 102);
+    /* background-color: grey; */
+    border-radius: 5px;
+    
+}
+
+caption {
+    border-bottom: hidden;
+    padding: 10px;
+    font-size: 50px;
+    color: #e3d0b1; 
+}
+
+table {
+    margin: 2% auto;
+    
+}
+
+caption, table {
+    background-color: #192c4b;
+    box-shadow: 2px 2px 1px black;
+}
+
+th {
+    padding: 4px;
+    color: #e3d0b1;
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
+}
+
+th:hover {
+    background-color: rgb(35, 59, 99);
+    padding: 2%;
+}
